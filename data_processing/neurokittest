@@ -1,0 +1,22 @@
+import neurokit2 as nk
+import json
+
+with open('data/digitized_json_files/19_2020.json', 'r') as f:
+    raw = json.load(f)
+lead= raw['leads'][0]['signal']  # Wybierz pierwszy lead
+
+print(len(lead),type(lead))
+import numpy as np
+lead = np.array(lead, dtype=np.float32)  
+lead[0] = lead[1]  
+
+#ecg = nk.ecg_simulate(duration=4, sampling_rate=320, noise=0.2)
+ecg = lead
+
+print(len(ecg),type(ecg))
+
+ecg_cleaned = nk.ecg_clean(ecg, sampling_rate=320)
+
+quality = nk.ecg_quality(ecg_cleaned, sampling_rate=320)
+
+print(quality)
