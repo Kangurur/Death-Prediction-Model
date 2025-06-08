@@ -8,11 +8,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # --- Wczytanie danych ---
-data = pd.read_csv('data/train.csv')
+data = pd.read_csv('v1/train.csv')
 X = data.drop(columns=['zgon', 'KG'])
 y = data['zgon']
 
-test = pd.read_csv('data/test.csv')
+test = pd.read_csv('v1/test.csv')
 X_test = test.drop(columns=['zgon', 'KG'])
 y_test = test['zgon']
 idx = test['KG']
@@ -66,4 +66,5 @@ for i in range(test.shape[0]):
         print(f"Niepoprawna predykcja dla KG {idx[i]}: {y_test.iloc[i]} vs {y_pred[i]}")
 
 if accuracy >= 0.65:
-    best_model.save_model(f'models/v1({accuracy:.2f}).json')
+    name = "asd"
+    best_model.save_model(f'v1/{name}.json')

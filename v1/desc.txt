@@ -1,0 +1,29 @@
+v1 - xgb, bez ekg
+
+Accuracy: 0.72
+[[23  5]
+ [10 16]]
+
+Top cechy wg ważności:
+                                             Feature  Importance
+10                                       Sepsa (0/1)    0.103304
+17                                             WIEK2    0.078065
+6                            Lac (1. gaz. 1sza doba)    0.069003
+13                 sodium chloride difference tiss 2    0.064768
+9                                   SOFA - punktacja    0.057879
+14                 sodium chloride difference tiss 3    0.053808
+15                 akcja serca przyjęcie (TISS nr 1)    0.050769
+0                                               WIEK    0.049332
+16  Wentylacja mechaniczna TAK=1, NIE =0 (TISS nr 1)    0.047068
+11      temperatura ciała przy przyjęciu (TISS nr 1)    0.046497
+4                                pao2/fio2 1sza doba    0.044324
+8                            LA (1. gaz. 1 sza doba)    0.042215
+3                                      MAP 1sza doba    0.038097
+2                                     Prokalcytonina    0.036976
+7                             BE (1. gaz. 1sza doba)    0.035951
+12                 sodium chloride difference tiss 1    0.035844
+1                                     Interleukina 6    0.035664
+5                        Glukoza (1. gaz. 1sza doba)    0.032444
+19                                            organs    0.027456
+18                                         infection    0.026039
+20                                               LA+    0.024499

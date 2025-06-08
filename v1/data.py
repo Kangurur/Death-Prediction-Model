@@ -39,9 +39,7 @@ data.rename(columns={'zgon w ciągu pierwszych 30 dni od przyjęcia do OIT': 'zg
 #data['zgon'] = data['zgon'].astype(bool)
 #print(data.count()) #454
 
-#data['WIEK'] = data['WIEK'].apply(
-#    lambda x: 0 if x<=14 else (1 if 15 <= x <= 30 else (2 if 31 <= x <= 60 else 3)))
-
+#new data
 data['WIEK2'] = data['WIEK'].apply(lambda x: x//10)
 data["infection"] = data['Interleukina 6']* data['Prokalcytonina']
 data["organs"] = data["Lac (1. gaz. 1sza doba)"] * data["pao2/fio2 1sza doba"] 
