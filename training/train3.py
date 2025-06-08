@@ -22,10 +22,12 @@ def objective(trial):
     params = {
         'n_estimators': trial.suggest_int('n_estimators', 50, 300),
         'max_depth': trial.suggest_int('max_depth', 5, 12),
-        'learning_rate': trial.suggest_float('learning_rate', 0.01, 0.3),
+        'learning_rate': trial.suggest_float('learning_rate', 0.005, 0.5),
         'subsample': trial.suggest_float('subsample', 0.5, 1.0),
         'colsample_bytree': trial.suggest_float('colsample_bytree', 0.5, 1.0),
         'eval_metric': 'logloss',
+        #'gamma': trial.suggest_float('gamma', 0, 5),
+        #'min_child_weight': trial.suggest_int('min_child_weight', 1, 10),
         #'use_label_encoder': False,
         'random_state': 2137
     }
@@ -62,3 +64,6 @@ print(feat_imp_df)
 for i in range(test.shape[0]):
     if y_pred[i] != y_test.iloc[i]:
         print(f"Niepoprawna predykcja dla KG {idx[i]}: {y_test.iloc[i]} vs {y_pred[i]}")
+
+if accuracy >= 0.65:
+    best_model.save_model(f'models/v1({accuracy:.2f}).json')
