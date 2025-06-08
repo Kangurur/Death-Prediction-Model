@@ -1,8 +1,8 @@
 import pandas as pd
 
-data=pd.read_csv('mpsi/0Projekt/data/test.csv')
+data=pd.read_csv('data/test.csv')
 
-train=pd.read_csv('mpsi/0Projekt/data/train.csv')
+train=pd.read_csv('data/train.csv')
 print(train[train['zgon'] == 1].count())
 
 print(data[data['zgon'] == 1].count())

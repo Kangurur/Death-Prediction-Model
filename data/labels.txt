@@ -1,0 +1,210 @@
+KG
+PLEC
+male sex
+ZGON wewn¹trzszpitalnie
+WIEK
+ile dni wszpitalu
+ile dni w oit
+czy by³ zgon  w oit
+ile dni od przyjêcia do OIT do zgonu
+zgon w oit w ci¹gu pierwszych 3 dni
+follow up 3 dni
+follow up 30 dni
+follow up 7 dni
+zgon w oit w ci¹gu pierwszych 7 dni
+zgon w ci¹gu pierwszych 30 dni od przyjêcia do OIT
+przyjêcie na OIT po zabiegu ostrym
+przyjêcie na OIT po zabiegu ostrym.1
+Operowany przed przyjêciem (0/1)
+GLASGOW
+CH_PRZEW_Brak
+marskoœæ w¹troby i nadciœnienie wrotne
+niewydolnoœæ kr¹¿enia_NYHA IV
+przewlek³e ciê¿kie choroby uk³adu oddechowego
+niewydolnoœæ nerek wymagajaca dializ
+obni¿enie odpornoœci
+APA_RAZEM
+APA_RYZ%
+SAPS_RAZEM
+SAPS_RYZYKO
+Interleukina 6
+Prokalcytonina
+GLASGOW.1
+MAP 1sza doba
+pao2/fio2 1sza doba
+BILI TISS 1
+Wentylacja mechaniczna TAK=1, NIE =0 (TISS nr 1)
+dopamina przyjêcie tak=1, nie = 0 (TISS nr 1)
+dopamina  dawka (TISS nr 1)
+noradrenalina przyjêcie: tak=1, nie =0 (TISS nr 1)
+noradrenalina przyjêcie dawka ug/kg/min (TISS nr 1)
+adrenalina przyjêcie: tak=1, nie =0 (TISS nr 1)
+adrenalina przyjêcie dawka ug/kg/min (TISS nr 1)
+dobutamina przyjêcie tak=1, nie =0 (TISS nr 1)
+KREA TISS 1
+DIUREZA W PIERWSZYCH 24 GODZIN Z TISS
+PLT
+Waga (kg)
+Wzrost (cm)
+BMI
+CTK skurczowe przyjêcie (TISS nr 1)
+CTK rozkurczowe przyjêcie (TISS nr 1)
+akcja serca przyjêcie (TISS nr 1)
+temperatura cia³a przy przyjêciu (TISS nr 1)
+Wentylacja mechaniczna TAK=1, NIE =0 (TISS nr 1).1
+FIO2 (TISS nr 1)
+Antybiotyki Tak=1, NIE =0)
+argipresyna/empesin TAK=1, NIE=0 (TISS nr 1 godz. 0.00)
+argipresyna dawka  (TISS nr 1 godz. 0.00)
+diureza w ml w ci¹gu pierwszych 6 godzin od przyjêcia 
+diureza w ml w ci¹gu pierwszych 12 godzin od przyjêcia 
+poda¿ p³ynów w dobie przyjêcia (ml) - okienko "RAZEM" po prawej stronie pod wierszem "woda endogenna" (TISS nr 1)
+bilans p³ynów w dobie przyjêcia (ml) (TISS 1)
+pH (1. gaz. 1 TISS)
+pCO2 (1. gaz. 1 TISS)
+pO2 (1. gaz. 1 TISS)
+Hb (1. gaz. 1 TISS)
+K (1. gaz. 1 TISS)
+Na (1. gaz. 1 TISS)
+Ca2+ (1. gaz. 1 TISS)
+Cl (1. gaz. 1 TISS)
+sodium chloride difference
+Glukoza (1. gaz. 1sza doba)
+Lac (1. gaz. 1sza doba)
+Crea (1. gaz. 1 TISS)
+Bil (1. gaz. 1 TISS)
+BE (1. gaz. 1sza doba)
+HCO3 (1. gaz. 1 TISS)
+LA (1. gaz. 1 sza doba)
+mOsm (1. gaz. 1 TISS)
+CTK skurczowe godz. 0.00 TISS nr 2
+CTK rozkurczowe godz 0.00 TISS nr 2
+akcja serca /min godz. 0.00 TISS nr 2
+Wentylacja mechaniczna TAK=1, NIE =0 (TISS nr 2 godz. 0.00)
+FIO2 (TISS nr 2 godz. 0.00)
+noradrenalina przyjêcie: tak=1, nie =0  (TISS nr 2 godz. 0.00)
+noradrenalina przyjêcie dawka ug/kg/min  (TISS nr 2 godz. 0.00)
+adrenalina przyjêcie: tak=1, nie =0  (TISS nr 2 godz. 0.00)
+adrenalina przyjêcie dawka ug/kg/min  (TISS nr 2 godz. 0.00)
+dobutamina przyjêcie tak=1, nie =0  (TISS nr 2 godz. 0.00)
+dopamina przyjêcie tak=1, nie = 0  (TISS nr 2 godz. 0.00)
+dopamina dawka  (TISS nr 2 godz. 0.00)
+argipresyna/empesin TAK=1, NIE=0 (TISS nr 2 godz. 0.00)
+argipresyna dawka  (TISS nr 2 godz. 0.00)
+poda¿ p³ynów TISS 2 (ml) - okienko "RAZEM" po prawej stronie pod wierszem "woda endogenna"  
+bilans p³ynów TISS 2 (ml) (TISS 2)
+pH (1. gaz. 2 TISS)
+pCO2 (1. gaz. 2 TISS)
+pO2 (1. gaz. 2 TISS)
+Hb (1. gaz. 2 TISS)
+K (1. gaz. 2 TISS)
+Na (1. gaz. 2 TISS)
+Ca2+ (1. gaz. 2 TISS)
+Cl (1. gaz. 2 TISS)
+Glukoza (1. gaz. 2 TISS)
+Lac (1. gaz. 2 TISS)
+Crea (1. gaz. 2 TISS)
+Bil (1. gaz. 2 TISS)
+BE (1. gaz. 2 TISS)
+HCO3 (1. gaz. 2 TISS)
+LA (1. gaz. 2 TISS)
+mOsm (1. gaz. 2 TISS)
+CTK skurczowe godz. 0.00 TISS nr 3
+CTK rozkurczowe godz 0.00 TISS nr 3
+akcja serca /min godz. 0.00 TISS nr 3
+Wentylacja mechaniczna TAK=1, NIE =0 (TISS nr 3 godz. 0.00)
+FIO2 (TISS nr 3 godz. 0.00)
+noradrenalina  tak=1, nie =0  (TISS nr 3 godz. 0.00)
+noradrenalina  dawka ug/kg/min  (TISS nr 3 godz. 0.00)
+adrenalina tak=1, nie =0  (TISS nr 3 godz. 0.00)
+adrenalina dawka ug/kg/min  (TISS nr 3 godz. 0.00)
+dobutamina  tak=1, nie =0  (TISS nr 3 godz. 0.00)
+dopamina przyjêcie tak=1, nie = 0  (TISS nr 3 godz. 0.00)
+dopamina dawka (TISS nr 3 godz. 0.00)
+argipresyna/empesin TAK=1, NIE=0 (TISS nr 3 godz. 0.00)
+argipresyna dawka  (TISS nr 3 godz. 0.00)
+poda¿ p³ynów TISS 3 (ml) - okienko "RAZEM" po prawej stronie pod wierszem "woda endogenna"  
+bilans p³ynów TISS 3 (ml) (TISS 2)
+pH (1. gaz. 3 TISS)
+pCO2 (1. gaz. 3 TISS)
+pO2 (1. gaz.3 TISS)
+Hb (1. gaz. 3 TISS)
+K (1. gaz. 3 TISS)
+Na (1. gaz. 3 TISS)
+Ca2+ (1. gaz. 3 TISS)
+Cl (1. gaz. 3 TISS)
+Glukoza (1. gaz. 3 TISS)
+Lac (1. gaz. 3 TISS)
+Crea (1. gaz. 3 TISS)
+Bil (1. gaz. 3 TISS)
+BE (1. gaz. 3 TISS)
+HCO3 (1. gaz. 3 TISS)
+LA (1. gaz. 3 TISS)
+mOsm (1. gaz. 3 TISS)
+SOFA Wentylacja
+SOFA Krzepniêcie
+SOFA W¹troba
+SOFA Kr¹¿enie
+SOFA CSN
+SOFA Nerki
+SOFA - punktacja
+interleukina 6
+crp
+ferrytyna
+wbc
+aptt
+alt
+ast
+fosfor
+ntpro
+ddimer
+inr
+albuminy
+fibrynogen
+COVID-19
+cukrzyca
+nadciœnienie
+niewydolnoœæ nerek przewlek³a
+POCHP
+astma
+niewydolnoœæ w¹troby przewlek³a
+przewlek³a choroba niedokrwienna serca
+stan po przebyciu zawa³u serca
+niewydolnoœæ serca przewlek³a
+czynna choroba nowotworowa
+migotanie przedsionków -jakiekolwiek
+stan po przebyciu udaru mózgu
+choroby psychiczne (depresja, schizofrenia, otêpienie)
+choroby neurologiczne (Ch. Parkinsona, choroby nerwowo-miêœniowe)
+sepsa
+SAH
+krwawienie œródmózgowe (w³¹czajac nad- podtwardówkoe i œródmózgowe)
+NZK out-of-hospital
+NZK in-hospital
+operacja brzuszna
+operacja urologiczna
+operacja ortopedyczna
+operacja naczyniowa
+operacja neurochirurgiczna
+operacja inna
+ostra niewydolnoœæ oddechowa (w tym POCHp, astma, zap. P³uc)
+wstrz¹s kardiogenny
+œwie¿y zawa³ serca jako powód przyjêcia  do OIT
+dekompensacja uk³adu kr¹¿enia jako powód przyjêcia do OIT
+udar mózgu jako powód przyjêcia do OIT
+hematologiczne schorzenie jako powód przyjêcia do OIT
+zatrucie jako powód przyjêcia do OIT
+zapalenie trzustki jako powód przyjêcia do OIT
+uraz wielonarz¹dowy/wielomiejscowy jako powód przyjêcia do OIT (co najmniej dwa narz¹dy lub dwa topograficznie ró¿ne odcinki cia³a)
+CRRT - czy w³¹czono w trakcie OIT terapiê nerkozastêpcz¹
+najwy¿sze chlorki within 72 godz. 
+powy¿ej 110
+tercyle
+sodium chloride difference tiss 1
+sodium chloride difference tiss 2
+sodium chloride difference tiss 3
+average valeu ofscd 3tiss
+SCD<30 average
+scd<30 tiss1
+Sepsa
+Sepsa (0/1)
