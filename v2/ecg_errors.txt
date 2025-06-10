@@ -1,0 +1,7 @@
+Error processing lead 3 in file 26884_2020.json : cannot convert float NaN to integer
+Error processing lead 2 in file 4407_2020.json : cannot convert float NaN to integer
+Error processing lead 3 in file 4407_2020.json : cannot convert float NaN to integer
+Error processing lead 3 in file 44304_2021.json : All-NaN slice encountered
+Error processing lead 3 in file 66232_2021.json : integer division or modulo by zero
+Error processing lead 3 in file 69953_2022.json : integer division or modulo by zero
+Error processing lead 3 in file 73804_2020.json : cannot convert float NaN to integer

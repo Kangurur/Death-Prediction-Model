@@ -48,3 +48,12 @@ print(qrs2, qt2)
 
 
 print(np.where(signals["ECG_R_Peaks"]==1))
+
+print(hrv.columns)
+print(signals.columns)
+
+
+import matplotlib.pyplot as plt
+plt.figure(figsize=(12, 6))
+plt.plot(ecg, label='Cleaned ECG Signal')
+plt.show()

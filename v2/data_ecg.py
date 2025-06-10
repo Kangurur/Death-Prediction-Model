@@ -111,17 +111,19 @@ for filename in os.listdir(folder):
             features2 = process_ecg_signal(lead2, sampling_rate=sampling_rate)
             row.update({f"lead2_{k}": v for k, v in features2.items()})
         except Exception as e:
+            row.update({f"lead2_{k}": v for k, v in features1.items()})
             print("Error processing lead 2 in file", filename, ":", e)
         try:
             features3 = process_ecg_signal(lead3, sampling_rate=sampling_rate)
             row.update({f"lead3_{k}": v for k, v in features3.items()})
         except Exception as e:
+            row.update({f"lead3_{k}": v for k, v in features1.items()})
             print("Error processing lead 3 in file", filename, ":", e)
 
         results.append(row)
 
 df = pd.DataFrame(results)
-df.to_csv("ecg_processing/ecg_features.csv", index=False)
+df.to_csv("v2/ecg_features.csv", index=False)
 
 
 
