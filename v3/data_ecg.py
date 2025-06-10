@@ -137,7 +137,7 @@ for filename in os.listdir(folder):
             'hr': (features1['hr'] + features2['hr'] + features3['hr']) / 3,
             'mean_rr_ms': (features1['mean_rr_ms'] + features2['mean_rr_ms'] + features3['mean_rr_ms']) / 3,
             'rr_std': (features1['rr_std'] + features2['rr_std'] + features3['rr_std']) / 3,
-            'arrhythmia': features1['arrhythmia'] or features2['arrhythmia'] or features3['arrhythmia'],
+            #'arrhythmia': features1['arrhythmia'] or features2['arrhythmia'] or features3['arrhythmia'],
             'hr_sdnn': (features1['hr_sdnn'] + features2['hr_sdnn'] + features3['hr_sdnn']) / 3,
             'hr_rmssd': (features1['hr_rmssd'] + features2['hr_rmssd'] + features3['hr_rmssd']) / 3,
             'hr_pnn50': (features1['hr_pnn50'] + features2['hr_pnn50'] + features3['hr_pnn50']) / 3,
@@ -146,7 +146,7 @@ for filename in os.listdir(folder):
         results.append(features)
 
 df = pd.DataFrame(results)
-df.to_csv("v2/ecg_features.csv", index=False)
+df.to_csv("v3/ecg_features.csv", index=False)
 
 
 

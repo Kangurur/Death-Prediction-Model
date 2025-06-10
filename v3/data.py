@@ -16,13 +16,13 @@ col=['KG',
      'BE (1. gaz. 1sza doba)',
      'LA (1. gaz. 1 sza doba)',
      'SOFA - punktacja',
-     'Sepsa (0/1)',
+     #'Sepsa (0/1)',
      "temperatura ciała przy przyjęciu (TISS nr 1)",
      "sodium chloride difference tiss 1",
     "sodium chloride difference tiss 2",
     "sodium chloride difference tiss 3",
     "akcja serca przyjęcie (TISS nr 1)",
-    "Wentylacja mechaniczna TAK=1, NIE =0 (TISS nr 1)",
+    #"Wentylacja mechaniczna TAK=1, NIE =0 (TISS nr 1)",
     
 ]
 data=data[col]
@@ -34,14 +34,14 @@ data['KG'] = data['KG'].apply(lambda x: x.split('/')[0] if '/' in x else x.split
 data=data[data["Interleukina 6"]!="Nie znaleziono"]
 data["Interleukina 6"] = data["Interleukina 6"].astype(float)
 data["Prokalcytonina"] = data["Prokalcytonina"].astype(float)
-data["Sepsa (0/1)"] = data["Sepsa (0/1)"].astype(bool)
+#data["Sepsa (0/1)"] = data["Sepsa (0/1)"].astype(bool)
 #data["Operowany przed przyjęciem (0/1)"] = data["Operowany przed przyjęciem (0/1)"].astype(bool)
 data.rename(columns={'zgon w ciągu pierwszych 30 dni od przyjęcia do OIT': 'zgon'}, inplace=True)
 #data['zgon'] = data['zgon'].astype(bool)
 #print(data.count()) #454
 
 #new data
-data['WIEK2'] = data['WIEK'].apply(lambda x: x//10)
+#data['WIEK2'] = data['WIEK'].apply(lambda x: x//10)
 #data["infection"] = data['Interleukina 6']* data['Prokalcytonina']
 #data["organs"] = data["Lac (1. gaz. 1sza doba)"] * data["pao2/fio2 1sza doba"] 
 
@@ -61,5 +61,5 @@ data.set_index('KG', inplace=True, drop=False)
 #train.to_csv('v2/train.csv', index=False)
 #test.to_csv('v2/test.csv', index=False)
 
-data.to_csv('v2/data.csv', index=False)
+data.to_csv('v3/data.csv', index=False)
 
