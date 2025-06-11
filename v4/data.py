@@ -16,13 +16,13 @@ col=['KG',
      'BE (1. gaz. 1sza doba)',
      'LA (1. gaz. 1 sza doba)',
      'SOFA - punktacja',
-     #'Sepsa (0/1)',
+     'Sepsa (0/1)',
      "temperatura ciała przy przyjęciu (TISS nr 1)",
      "sodium chloride difference tiss 1",
     "sodium chloride difference tiss 2",
     "sodium chloride difference tiss 3",
     "akcja serca przyjęcie (TISS nr 1)",
-    #"Wentylacja mechaniczna TAK=1, NIE =0 (TISS nr 1)",
+    "Wentylacja mechaniczna TAK=1, NIE =0 (TISS nr 1)",
     
 ]
 data=data[col]
@@ -61,5 +61,5 @@ data.set_index('KG', inplace=True, drop=False)
 #train.to_csv('v2/train.csv', index=False)
 #test.to_csv('v2/test.csv', index=False)
 
-data.to_csv('v3/data.csv', index=False)
+data.to_csv('v4/data.csv', index=False)
 

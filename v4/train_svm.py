@@ -6,9 +6,9 @@ from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDis
 import optuna
 import pandas as pd
 
-data = pd.read_csv('v2/train.csv')
+data = pd.read_csv('v4/train.csv')
 
-test = pd.read_csv('v2/test.csv')
+test = pd.read_csv('v4/test.csv')
 
 data=data.dropna()
 test=test.dropna()

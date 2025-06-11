@@ -1,0 +1,170 @@
+SVM 
+Najlepsze parametry: {'C': 0.6637835434309474, 'gamma': 0.3088754133780636, 'kernel': 'rbf'}
+
+Accuracy: 0.70
+[[18  8]
+ [ 7 17]]
+Accuracy train: 0.95
+
+ecg
+Najlepsze parametry: {'C': 18.449178731986866, 'gamma': 0.0001846825691241757, 'kernel': 'rbf'}
+
+Accuracy: 0.69
+[[23  3]
+ [11  8]]
+Accuracy train: 0.72
+
+xgb
+Najlepsze parametry: {'n_estimators': 256, 'max_depth': 3, 'learning_rate': 0.3463278885443726, 'subsample': 0.7327011030914858, 'colsample_bytree': 0.5158823887613938, 'gamma': 4.132681514576977, 'reg_alpha': 0.24102824614646992, 'reg_lambda': 1.3678503041503676}
+
+Accuracy: 0.68
+[[19  7]
+ [ 9 15]]
+
+Top cechy wg ważności:
+                                             Feature  Importance
+13                 sodium chloride difference tiss 2    0.161348
+14                 sodium chloride difference tiss 3    0.084167
+7                             BE (1. gaz. 1sza doba)    0.078469
+9                                   SOFA - punktacja    0.073020
+6                            Lac (1. gaz. 1sza doba)    0.072527
+1                                     Interleukina 6    0.072320
+11      temperatura ciała przy przyjęciu (TISS nr 1)    0.055936
+0                                               WIEK    0.054835
+5                        Glukoza (1. gaz. 1sza doba)    0.053667
+4                                pao2/fio2 1sza doba    0.051643
+12                 sodium chloride difference tiss 1    0.051015
+3                                      MAP 1sza doba    0.050312
+2                                     Prokalcytonina    0.047532
+17                                                hr    0.046753
+15                 akcja serca przyjęcie (TISS nr 1)    0.046456
+8                            LA (1. gaz. 1 sza doba)    0.000000
+10                                       Sepsa (0/1)    0.000000
+16  Wentylacja mechaniczna TAK=1, NIE =0 (TISS nr 1)    0.000000
+Accuracy train:0.84
+
+ecg
+Najlepsze parametry: {'n_estimators': 385, 'max_depth': 3, 'learning_rate': 0.47750475983403456, 'subsample': 0.719309920435, 'colsample_bytree': 0.586640128891026, 'gamma': 3.6288262594087555, 'reg_alpha': 1.0602162138719742, 'reg_lambda': 1.7566463729231303}
+
+Accuracy: 0.70
+[[20  6]
+ [ 9 15]]
+
+Top cechy wg ważności:
+                              Feature  Importance
+19             BE (1. gaz. 1sza doba)    0.109374
+20  sodium chloride difference tiss 3    0.092514
+5                        ecg_kurtosis    0.076657
+3                             ecg_max    0.069722
+0                            ecg_mean    0.056523
+10                                 hr    0.053155
+18            Lac (1. gaz. 1sza doba)    0.050231
+6                      entropy_approx    0.049792
+16                               WIEK    0.048866
+11                         mean_rr_ms    0.047676
+4                            ecg_skew    0.047535
+17  akcja serca przyjęcie (TISS nr 1)    0.046772
+9                       qt_interval_s    0.046573
+2                             ecg_min    0.043373
+8                      qrs_duration_s    0.041780
+1                             ecg_std    0.040926
+14                           hr_rmssd    0.039761
+15                           hr_pnn50    0.038769
+7                      entropy_sample    0.000000
+12                             rr_std    0.000000
+13                            hr_sdnn    0.000000
+Accuracy train:0.84
+
+model2 xd
+Najlepsze parametry: {'n_estimators': 252, 'max_depth': 5, 'learning_rate': 0.40386006649873896, 'subsample': 0.6194334674015171, 'colsample_bytree': 0.9252475287281837, 'gamma': 3.541446848669247, 'reg_alpha': 0.2994600819519513, 'reg_lambda': 0.7353061338333967}
+
+Accuracy: 0.70
+[[18  8]
+ [ 7 17]]
+
+Top cechy wg ważności:
+                              Feature  Importance
+20  sodium chloride difference tiss 3    0.087309
+9                       qt_interval_s    0.062986
+14                           hr_rmssd    0.058655
+5                        ecg_kurtosis    0.057219
+3                             ecg_max    0.055300
+10                                 hr    0.055201
+18            Lac (1. gaz. 1sza doba)    0.055029
+8                      qrs_duration_s    0.054165
+15                           hr_pnn50    0.052868
+0                            ecg_mean    0.052320
+19             BE (1. gaz. 1sza doba)    0.049706
+11                         mean_rr_ms    0.049070
+16                               WIEK    0.048683
+4                            ecg_skew    0.046201
+17  akcja serca przyjęcie (TISS nr 1)    0.045438
+6                      entropy_approx    0.044682
+1                             ecg_std    0.044146
+2                             ecg_min    0.043019
+7                      entropy_sample    0.038004
+12                             rr_std    0.000000
+13                            hr_sdnn    0.000000
+Accuracy train:0.92
+
+
+Random Forest
+Najlepsze parametry: {'n_estimators': 217, 'max_depth': 9, 'min_samples_split': 7, 'min_samples_leaf': 1, 'max_features': 'log2', 'bootstrap': True}
+
+Accuracy: 0.70
+[[23  3]
+ [12 12]]
+
+Top cechy wg ważności:
+                                             Feature  Importance
+14                 sodium chloride difference tiss 3    0.100518
+7                             BE (1. gaz. 1sza doba)    0.094889
+13                 sodium chloride difference tiss 2    0.091424
+6                            Lac (1. gaz. 1sza doba)    0.079441
+9                                   SOFA - punktacja    0.073993
+0                                               WIEK    0.073041
+17                                                hr    0.065930
+2                                     Prokalcytonina    0.052146
+5                        Glukoza (1. gaz. 1sza doba)    0.051655
+8                            LA (1. gaz. 1 sza doba)    0.048315
+4                                pao2/fio2 1sza doba    0.046999
+3                                      MAP 1sza doba    0.045929
+15                 akcja serca przyjęcie (TISS nr 1)    0.042996
+1                                     Interleukina 6    0.041275
+11      temperatura ciała przy przyjęciu (TISS nr 1)    0.040986
+12                 sodium chloride difference tiss 1    0.040019
+16  Wentylacja mechaniczna TAK=1, NIE =0 (TISS nr 1)    0.005229
+10                                       Sepsa (0/1)    0.005213
+Accuracy train: 0.97
+
+ecg
+Najlepsze parametry: {'n_estimators': 374, 'max_depth': 7, 'min_samples_split': 8, 'min_samples_leaf': 7, 'max_features': 'sqrt', 'bootstrap': False}
+
+Accuracy: 0.68
+[[20  6]
+ [10 14]]
+
+Top cechy wg ważności:
+                              Feature  Importance
+20  sodium chloride difference tiss 3    0.146004
+19             BE (1. gaz. 1sza doba)    0.103878
+18            Lac (1. gaz. 1sza doba)    0.090428
+16                               WIEK    0.067351
+5                        ecg_kurtosis    0.055206
+9                       qt_interval_s    0.055094
+8                      qrs_duration_s    0.052981
+4                            ecg_skew    0.044966
+3                             ecg_max    0.042125
+1                             ecg_std    0.039683
+10                                 hr    0.039572
+11                         mean_rr_ms    0.038300
+0                            ecg_mean    0.037006
+6                      entropy_approx    0.033447
+15                           hr_pnn50    0.025197
+14                           hr_rmssd    0.024605
+12                             rr_std    0.023881
+13                            hr_sdnn    0.022068
+2                             ecg_min    0.021171
+17  akcja serca przyjęcie (TISS nr 1)    0.019455
+7                      entropy_sample    0.017582
+Accuracy train: 0.95

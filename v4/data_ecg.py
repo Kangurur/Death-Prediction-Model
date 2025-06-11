@@ -146,7 +146,7 @@ for filename in os.listdir(folder):
         results.append(features)
 
 df = pd.DataFrame(results)
-df.to_csv("v3/ecg_features.csv", index=False)
+df.to_csv("v4/data_ecg.csv", index=False)
 
 
 
