@@ -19,22 +19,22 @@ idx = test['KG']
 # --- Funkcja celu dla Optuna ---
 def objective(trial):
     params = {
-        'n_estimators': trial.suggest_int('n_estimators', 20, 300),
+        'n_estimators': trial.suggest_int('n_estimators', 50, 500),
         'max_depth': trial.suggest_int('max_depth', 3, 6),
         'learning_rate': trial.suggest_float('learning_rate', 0.005, 0.5),
         'subsample': trial.suggest_float('subsample', 0.5, 1.0),
         'colsample_bytree': trial.suggest_float('colsample_bytree', 0.5, 1.0),
         'eval_metric': 'logloss',
         'gamma': trial.suggest_float('gamma', 0, 5),
-        'min_child_weight': trial.suggest_int('min_child_weight', 1,6),
+        #'min_child_weight': trial.suggest_int('min_child_weight', 1 ,10),
         'reg_alpha': trial.suggest_float('reg_alpha', 0, 2),
         'reg_lambda': trial.suggest_float('reg_lambda', 0, 2),
         #'use_label_encoder': False,
-        'random_state': 2137
+        #'random_state': 2137
     }
 
     model = XGBClassifier(**params)
-    score = cross_val_score(model, X, y, cv=3, scoring='accuracy', n_jobs=-1).mean()
+    score = cross_val_score(model, X, y, cv=3, scoring='roc_auc', n_jobs=-1).mean()
     return score
 
 study = optuna.create_study(direction='maximize')
